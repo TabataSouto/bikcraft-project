@@ -1,7 +1,8 @@
+import { BrowserRouter } from "react-router-dom";
+import { RoutesApp } from "./routes";
+
 function App() {
-  return (
-    <h1>Home</h1>
-  )
+  return <RoutesApp />;
 }
 
-export default App
+export default App;
