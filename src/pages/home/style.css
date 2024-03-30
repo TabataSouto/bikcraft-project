@@ -1,0 +1,32 @@
+:root {
+  --point: #ffbb00;
+  --desc: #b2b2b2;
+  --button: lineat-
+}
+
+.introduction-bg {
+  background: #000000;
+  color: #ffffff;
+}
+
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 2.5rem;
+  & h1 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    line-height: 1.125
+  };
+  & p {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--desc);
+  }
+}
+
+.introduction-content {
+  align-self: end;
+  padding-bottom: 5rem;
+}

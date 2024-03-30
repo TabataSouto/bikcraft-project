@@ -5,7 +5,7 @@ import "./style.css";
 export const Header = () => {
   return (
     <header className="header-bg">
-      <div className="header">
+      <div className="container header">
         <Link to="/">
           <img src={logo} alt="logo" width="136" height="32" />
         </Link>
