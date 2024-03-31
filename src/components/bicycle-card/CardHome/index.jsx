@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-export const CardHome = ({ image, title, price }) => {
+export const CardHome = ({ url, image, title, price }) => {
   return (
-    <Link to={`/bicycle/${title}`} style={{ cursor: "pointer"}}>
+    <Link to={`/bicycle/${url}`} style={{ cursor: "pointer"}}>
       <div>
         <img src={image} alt="bicicleta" />
         <h3 className="font-1-xl">{title}</h3>

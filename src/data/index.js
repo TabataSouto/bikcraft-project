@@ -1,6 +1,7 @@
 export const bicyclesData = [
   {
     name: "Nimbus Stark",
+    url: "numbus",
     description:
       "A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
     delivery: "5 dias",
@@ -45,6 +46,7 @@ export const bicyclesData = [
   },
   {
     name: "Magic Might",
+    url: "magic",
     description:
       "A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
     delivery: "5 dias",
@@ -89,6 +91,7 @@ export const bicyclesData = [
   },
   {
     name: "Nebula Cosmic",
+    url: "nebula",
     description:
       "A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
     delivery: "5 dias",

@@ -29,6 +29,7 @@ export const Home = () => {
       <article>
         {bicyclesData.map((bicycle) => (
           <CardHome
+            url={bicycle.url}
             title={bicycle.name}
             image={bicycle["image-small-1"]}
             price={bicycle.price}
