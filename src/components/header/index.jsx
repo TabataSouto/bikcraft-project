@@ -10,7 +10,7 @@ export const Header = () => {
           <img src={logo} alt="logo" width="136" height="32" />
         </Link>
         <nav aria-label="primaria">
-          <ul className="header-menu">
+          <ul className="header-menu font-1-m">
             <Link to="/bicycles">
               <li>Bicicletas</li>
             </Link>

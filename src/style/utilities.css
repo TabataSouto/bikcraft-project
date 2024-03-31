@@ -1,0 +1,38 @@
+:root {
+  --cor-w: #ffffff;
+  --cor-1: #f7f7f7;
+  --cor-2: #e0e0e0;
+  --cor-3: #c8c8c8;
+  --cor-4: #aeaeae;
+  --cor-5: #949494;
+  --cor-6: #7d7d7d;
+  --cor-7: #606060;
+  --cor-8: #464646;
+  --cor-9: #272727;
+  --cor-10: #212121;
+  --cor-11: #141414;
+  --cor-12: #000000;
+  --cor-p1: #ffbb00;
+  --cor-p2: #e7a50c;
+  --cor-p3: #a66f00;
+  --cor-p4: #714a03;
+  --cor-p5: #331f01;
+  --desc: #b2b2b2;
+  --gradient: linear-gradient(#ffbf00, #f2a50c);
+  --gradient-hover: linear-gradient(#ffb60d, #e59317);
+  --button-shadow: 0 1px 2px rgb(0 0 0 / 0.1);
+  --shadow: inset 0 -120px #ffffff;
+  --shadow-mobile: inset 0 -60px #ffffff;
+  --bg-mobile: #111111;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 1.25rem;
+}
+
+.point {
+  color: var(--cor-p1);
+}

@@ -11,6 +11,7 @@ export const RoutesApp = () => {
       <Route path="/bicycles" element={<Bicycles />} />
       <Route path="/secure" element={<Secure />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/bicycle/:name" element={<Contact />} />
     </Switch>
   );
 };

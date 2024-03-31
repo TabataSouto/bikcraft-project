@@ -5,6 +5,13 @@ export const bicyclesData = [
       "A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
     delivery: "5 dias",
     stock: 15,
+    price: 4499,
+    "image-small-1": "src/assets/bicicletas/magic-home.jpg",
+    "image-small-2": "src/assets/bicicletas/nimbus-home.jpg",
+    "image-small-3": "src/assets/bicicletas/nebula-home.jpg",
+    "image-large-1": "src/assets/bicicletas/magic.jpg",
+    "image-large-2": "src/assets/bicicletas/nimbus.jpg",
+    "image-large-3": "src/assets/bicicletas/nebula.jpg",
     infos: [
       {
         title: "Motor Elétrico",
@@ -42,6 +49,13 @@ export const bicyclesData = [
       "A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
     delivery: "5 dias",
     stock: 15,
+    price: 2499,
+    "image-small-2": "src/assets/bicicletas/magic-home.jpg",
+    "image-small-1": "src/assets/bicicletas/nimbus-home.jpg",
+    "image-small-3": "src/assets/bicicletas/nebula-home.jpg",
+    "image-large-2": "src/assets/bicicletas/magic.jpg",
+    "image-large-1": "src/assets/bicicletas/nimbus.jpg",
+    "image-large-3": "src/assets/bicicletas/nebula.jpg",
     infos: [
       {
         title: "Motor Elétrico",
@@ -79,6 +93,13 @@ export const bicyclesData = [
       "A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
     delivery: "5 dias",
     stock: 15,
+    price: 3999,
+    "image-small-3": "src/assets/bicicletas/magic-home.jpg",
+    "image-small-2": "src/assets/bicicletas/nimbus-home.jpg",
+    "image-small-1": "src/assets/bicicletas/nebula-home.jpg",
+    "image-large-3": "src/assets/bicicletas/magic.jpg",
+    "image-large-2": "src/assets/bicicletas/nimbus.jpg",
+    "image-large-1": "src/assets/bicicletas/nebula.jpg",
     infos: [
       {
         title: "Motor Elétrico",
