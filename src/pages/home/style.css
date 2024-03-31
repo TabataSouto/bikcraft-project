@@ -1,12 +1,12 @@
 :root {
-  --point: #ffbb00;
   --desc: #b2b2b2;
-  --button: lineat-
+  --shadow: inset 0 -120px #ffffff;
 }
 
 .introduction-bg {
   background: #000000;
   color: #ffffff;
+  box-shadow: var(--shadow);
 }
 
 .introduction {
@@ -26,7 +26,14 @@
   }
 }
 
+.introduction-img {
+  & img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
 .introduction-content {
   align-self: end;
-  padding-bottom: 5rem;
+  padding-bottom: 12.5rem;
 }

@@ -15,9 +15,13 @@ export const Home = () => {
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para o cliente. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
-          <Link to="" className="button">Escolha a sua</Link>
+          <Link to="" className="button">
+            Escolha a sua
+          </Link>
         </div>
-        <img src={imageOne} alt="" width="" height="" />
+        <div className="introduction-img">
+          <img src={imageOne} alt="" />
+        </div>
       </div>
     </main>
   );

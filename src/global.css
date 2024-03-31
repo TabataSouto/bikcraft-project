@@ -6,7 +6,7 @@
   --desc: #b2b2b2;
   --gradient: linear-gradient(#ffbf00, #f2a50c);
   --gradient-hover: linear-gradient(#ffb60d, #e59317);
-  --button-title: #332200
+  --button-title: #332200;
 }
 
 * {
@@ -30,6 +30,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+  border-radius: 4px
 }
 
 .container {
